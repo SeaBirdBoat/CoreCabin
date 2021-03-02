@@ -7,11 +7,11 @@ ASM_FLAGS = -g   -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -
 
 ASM_DEFINES = -DDEBUG -DSTM32F405xx -DUSE_HAL_DRIVER
 
-ASM_INCLUDES = -IE:\GitProject\stm32\BuoyancyCabin\Core\Inc -IE:\GitProject\stm32\BuoyancyCabin\Drivers\STM32F4xx_HAL_Driver\Inc -IE:\GitProject\stm32\BuoyancyCabin\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IE:\GitProject\stm32\BuoyancyCabin\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IE:\GitProject\stm32\BuoyancyCabin\Drivers\CMSIS\Include 
+ASM_INCLUDES = -IE:\GitProject\Boat\CoreCabin\Core\Inc -IE:\GitProject\Boat\CoreCabin\Drivers\STM32F4xx_HAL_Driver\Inc -IE:\GitProject\Boat\CoreCabin\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IE:\GitProject\Boat\CoreCabin\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IE:\GitProject\Boat\CoreCabin\Drivers\CMSIS\Include 
 
 C_FLAGS = -g   -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
 
 C_DEFINES = -DDEBUG -DSTM32F405xx -DUSE_HAL_DRIVER
 
-C_INCLUDES = -IE:\GitProject\stm32\BuoyancyCabin\Core\Inc -IE:\GitProject\stm32\BuoyancyCabin\Drivers\STM32F4xx_HAL_Driver\Inc -IE:\GitProject\stm32\BuoyancyCabin\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IE:\GitProject\stm32\BuoyancyCabin\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IE:\GitProject\stm32\BuoyancyCabin\Drivers\CMSIS\Include 
+C_INCLUDES = -IE:\GitProject\Boat\CoreCabin\Core\Inc -IE:\GitProject\Boat\CoreCabin\Drivers\STM32F4xx_HAL_Driver\Inc -IE:\GitProject\Boat\CoreCabin\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IE:\GitProject\Boat\CoreCabin\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IE:\GitProject\Boat\CoreCabin\Drivers\CMSIS\Include 
 

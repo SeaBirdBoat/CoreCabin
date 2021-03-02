@@ -62,10 +62,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\GitProject\stm32\BuoyancyCabin
+CMAKE_SOURCE_DIR = E:\GitProject\Boat\CoreCabin
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\GitProject\stm32\BuoyancyCabin\cmake-build-debug
+CMAKE_BINARY_DIR = E:\GitProject\Boat\CoreCabin\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/BuoyancyCabin.elf.dir/depend.make
@@ -78,294 +78,294 @@ include CMakeFiles/BuoyancyCabin.elf.dir/flags.make
 
 CMakeFiles/BuoyancyCabin.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/BuoyancyCabin.elf.dir/flags.make
 CMakeFiles/BuoyancyCabin.elf.dir/Core/Src/gpio.c.obj: ../Core/Src/gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitProject\stm32\BuoyancyCabin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/BuoyancyCabin.elf.dir/Core/Src/gpio.c.obj"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuoyancyCabin.elf.dir\Core\Src\gpio.c.obj   -c E:\GitProject\stm32\BuoyancyCabin\Core\Src\gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitProject\Boat\CoreCabin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/BuoyancyCabin.elf.dir/Core/Src/gpio.c.obj"
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuoyancyCabin.elf.dir\Core\Src\gpio.c.obj   -c E:\GitProject\Boat\CoreCabin\Core\Src\gpio.c
 
 CMakeFiles/BuoyancyCabin.elf.dir/Core/Src/gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BuoyancyCabin.elf.dir/Core/Src/gpio.c.i"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitProject\stm32\BuoyancyCabin\Core\Src\gpio.c > CMakeFiles\BuoyancyCabin.elf.dir\Core\Src\gpio.c.i
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitProject\Boat\CoreCabin\Core\Src\gpio.c > CMakeFiles\BuoyancyCabin.elf.dir\Core\Src\gpio.c.i
 
 CMakeFiles/BuoyancyCabin.elf.dir/Core/Src/gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BuoyancyCabin.elf.dir/Core/Src/gpio.c.s"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitProject\stm32\BuoyancyCabin\Core\Src\gpio.c -o CMakeFiles\BuoyancyCabin.elf.dir\Core\Src\gpio.c.s
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitProject\Boat\CoreCabin\Core\Src\gpio.c -o CMakeFiles\BuoyancyCabin.elf.dir\Core\Src\gpio.c.s
 
 CMakeFiles/BuoyancyCabin.elf.dir/Core/Src/main.c.obj: CMakeFiles/BuoyancyCabin.elf.dir/flags.make
 CMakeFiles/BuoyancyCabin.elf.dir/Core/Src/main.c.obj: ../Core/Src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitProject\stm32\BuoyancyCabin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/BuoyancyCabin.elf.dir/Core/Src/main.c.obj"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuoyancyCabin.elf.dir\Core\Src\main.c.obj   -c E:\GitProject\stm32\BuoyancyCabin\Core\Src\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitProject\Boat\CoreCabin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/BuoyancyCabin.elf.dir/Core/Src/main.c.obj"
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuoyancyCabin.elf.dir\Core\Src\main.c.obj   -c E:\GitProject\Boat\CoreCabin\Core\Src\main.c
 
 CMakeFiles/BuoyancyCabin.elf.dir/Core/Src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BuoyancyCabin.elf.dir/Core/Src/main.c.i"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitProject\stm32\BuoyancyCabin\Core\Src\main.c > CMakeFiles\BuoyancyCabin.elf.dir\Core\Src\main.c.i
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitProject\Boat\CoreCabin\Core\Src\main.c > CMakeFiles\BuoyancyCabin.elf.dir\Core\Src\main.c.i
 
 CMakeFiles/BuoyancyCabin.elf.dir/Core/Src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BuoyancyCabin.elf.dir/Core/Src/main.c.s"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitProject\stm32\BuoyancyCabin\Core\Src\main.c -o CMakeFiles\BuoyancyCabin.elf.dir\Core\Src\main.c.s
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitProject\Boat\CoreCabin\Core\Src\main.c -o CMakeFiles\BuoyancyCabin.elf.dir\Core\Src\main.c.s
 
 CMakeFiles/BuoyancyCabin.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/BuoyancyCabin.elf.dir/flags.make
 CMakeFiles/BuoyancyCabin.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: ../Core/Src/stm32f4xx_hal_msp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitProject\stm32\BuoyancyCabin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/BuoyancyCabin.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuoyancyCabin.elf.dir\Core\Src\stm32f4xx_hal_msp.c.obj   -c E:\GitProject\stm32\BuoyancyCabin\Core\Src\stm32f4xx_hal_msp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitProject\Boat\CoreCabin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/BuoyancyCabin.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuoyancyCabin.elf.dir\Core\Src\stm32f4xx_hal_msp.c.obj   -c E:\GitProject\Boat\CoreCabin\Core\Src\stm32f4xx_hal_msp.c
 
 CMakeFiles/BuoyancyCabin.elf.dir/Core/Src/stm32f4xx_hal_msp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BuoyancyCabin.elf.dir/Core/Src/stm32f4xx_hal_msp.c.i"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitProject\stm32\BuoyancyCabin\Core\Src\stm32f4xx_hal_msp.c > CMakeFiles\BuoyancyCabin.elf.dir\Core\Src\stm32f4xx_hal_msp.c.i
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitProject\Boat\CoreCabin\Core\Src\stm32f4xx_hal_msp.c > CMakeFiles\BuoyancyCabin.elf.dir\Core\Src\stm32f4xx_hal_msp.c.i
 
 CMakeFiles/BuoyancyCabin.elf.dir/Core/Src/stm32f4xx_hal_msp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BuoyancyCabin.elf.dir/Core/Src/stm32f4xx_hal_msp.c.s"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitProject\stm32\BuoyancyCabin\Core\Src\stm32f4xx_hal_msp.c -o CMakeFiles\BuoyancyCabin.elf.dir\Core\Src\stm32f4xx_hal_msp.c.s
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitProject\Boat\CoreCabin\Core\Src\stm32f4xx_hal_msp.c -o CMakeFiles\BuoyancyCabin.elf.dir\Core\Src\stm32f4xx_hal_msp.c.s
 
 CMakeFiles/BuoyancyCabin.elf.dir/Core/Src/stm32f4xx_it.c.obj: CMakeFiles/BuoyancyCabin.elf.dir/flags.make
 CMakeFiles/BuoyancyCabin.elf.dir/Core/Src/stm32f4xx_it.c.obj: ../Core/Src/stm32f4xx_it.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitProject\stm32\BuoyancyCabin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/BuoyancyCabin.elf.dir/Core/Src/stm32f4xx_it.c.obj"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuoyancyCabin.elf.dir\Core\Src\stm32f4xx_it.c.obj   -c E:\GitProject\stm32\BuoyancyCabin\Core\Src\stm32f4xx_it.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitProject\Boat\CoreCabin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/BuoyancyCabin.elf.dir/Core/Src/stm32f4xx_it.c.obj"
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuoyancyCabin.elf.dir\Core\Src\stm32f4xx_it.c.obj   -c E:\GitProject\Boat\CoreCabin\Core\Src\stm32f4xx_it.c
 
 CMakeFiles/BuoyancyCabin.elf.dir/Core/Src/stm32f4xx_it.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BuoyancyCabin.elf.dir/Core/Src/stm32f4xx_it.c.i"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitProject\stm32\BuoyancyCabin\Core\Src\stm32f4xx_it.c > CMakeFiles\BuoyancyCabin.elf.dir\Core\Src\stm32f4xx_it.c.i
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitProject\Boat\CoreCabin\Core\Src\stm32f4xx_it.c > CMakeFiles\BuoyancyCabin.elf.dir\Core\Src\stm32f4xx_it.c.i
 
 CMakeFiles/BuoyancyCabin.elf.dir/Core/Src/stm32f4xx_it.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BuoyancyCabin.elf.dir/Core/Src/stm32f4xx_it.c.s"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitProject\stm32\BuoyancyCabin\Core\Src\stm32f4xx_it.c -o CMakeFiles\BuoyancyCabin.elf.dir\Core\Src\stm32f4xx_it.c.s
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitProject\Boat\CoreCabin\Core\Src\stm32f4xx_it.c -o CMakeFiles\BuoyancyCabin.elf.dir\Core\Src\stm32f4xx_it.c.s
 
 CMakeFiles/BuoyancyCabin.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/BuoyancyCabin.elf.dir/flags.make
 CMakeFiles/BuoyancyCabin.elf.dir/Core/Src/syscalls.c.obj: ../Core/Src/syscalls.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitProject\stm32\BuoyancyCabin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/BuoyancyCabin.elf.dir/Core/Src/syscalls.c.obj"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuoyancyCabin.elf.dir\Core\Src\syscalls.c.obj   -c E:\GitProject\stm32\BuoyancyCabin\Core\Src\syscalls.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitProject\Boat\CoreCabin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/BuoyancyCabin.elf.dir/Core/Src/syscalls.c.obj"
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuoyancyCabin.elf.dir\Core\Src\syscalls.c.obj   -c E:\GitProject\Boat\CoreCabin\Core\Src\syscalls.c
 
 CMakeFiles/BuoyancyCabin.elf.dir/Core/Src/syscalls.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BuoyancyCabin.elf.dir/Core/Src/syscalls.c.i"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitProject\stm32\BuoyancyCabin\Core\Src\syscalls.c > CMakeFiles\BuoyancyCabin.elf.dir\Core\Src\syscalls.c.i
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitProject\Boat\CoreCabin\Core\Src\syscalls.c > CMakeFiles\BuoyancyCabin.elf.dir\Core\Src\syscalls.c.i
 
 CMakeFiles/BuoyancyCabin.elf.dir/Core/Src/syscalls.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BuoyancyCabin.elf.dir/Core/Src/syscalls.c.s"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitProject\stm32\BuoyancyCabin\Core\Src\syscalls.c -o CMakeFiles\BuoyancyCabin.elf.dir\Core\Src\syscalls.c.s
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitProject\Boat\CoreCabin\Core\Src\syscalls.c -o CMakeFiles\BuoyancyCabin.elf.dir\Core\Src\syscalls.c.s
 
 CMakeFiles/BuoyancyCabin.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/BuoyancyCabin.elf.dir/flags.make
 CMakeFiles/BuoyancyCabin.elf.dir/Core/Src/sysmem.c.obj: ../Core/Src/sysmem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitProject\stm32\BuoyancyCabin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/BuoyancyCabin.elf.dir/Core/Src/sysmem.c.obj"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuoyancyCabin.elf.dir\Core\Src\sysmem.c.obj   -c E:\GitProject\stm32\BuoyancyCabin\Core\Src\sysmem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitProject\Boat\CoreCabin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/BuoyancyCabin.elf.dir/Core/Src/sysmem.c.obj"
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuoyancyCabin.elf.dir\Core\Src\sysmem.c.obj   -c E:\GitProject\Boat\CoreCabin\Core\Src\sysmem.c
 
 CMakeFiles/BuoyancyCabin.elf.dir/Core/Src/sysmem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BuoyancyCabin.elf.dir/Core/Src/sysmem.c.i"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitProject\stm32\BuoyancyCabin\Core\Src\sysmem.c > CMakeFiles\BuoyancyCabin.elf.dir\Core\Src\sysmem.c.i
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitProject\Boat\CoreCabin\Core\Src\sysmem.c > CMakeFiles\BuoyancyCabin.elf.dir\Core\Src\sysmem.c.i
 
 CMakeFiles/BuoyancyCabin.elf.dir/Core/Src/sysmem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BuoyancyCabin.elf.dir/Core/Src/sysmem.c.s"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitProject\stm32\BuoyancyCabin\Core\Src\sysmem.c -o CMakeFiles\BuoyancyCabin.elf.dir\Core\Src\sysmem.c.s
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitProject\Boat\CoreCabin\Core\Src\sysmem.c -o CMakeFiles\BuoyancyCabin.elf.dir\Core\Src\sysmem.c.s
 
 CMakeFiles/BuoyancyCabin.elf.dir/Core/Src/system_stm32f4xx.c.obj: CMakeFiles/BuoyancyCabin.elf.dir/flags.make
 CMakeFiles/BuoyancyCabin.elf.dir/Core/Src/system_stm32f4xx.c.obj: ../Core/Src/system_stm32f4xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitProject\stm32\BuoyancyCabin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/BuoyancyCabin.elf.dir/Core/Src/system_stm32f4xx.c.obj"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuoyancyCabin.elf.dir\Core\Src\system_stm32f4xx.c.obj   -c E:\GitProject\stm32\BuoyancyCabin\Core\Src\system_stm32f4xx.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitProject\Boat\CoreCabin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/BuoyancyCabin.elf.dir/Core/Src/system_stm32f4xx.c.obj"
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuoyancyCabin.elf.dir\Core\Src\system_stm32f4xx.c.obj   -c E:\GitProject\Boat\CoreCabin\Core\Src\system_stm32f4xx.c
 
 CMakeFiles/BuoyancyCabin.elf.dir/Core/Src/system_stm32f4xx.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BuoyancyCabin.elf.dir/Core/Src/system_stm32f4xx.c.i"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitProject\stm32\BuoyancyCabin\Core\Src\system_stm32f4xx.c > CMakeFiles\BuoyancyCabin.elf.dir\Core\Src\system_stm32f4xx.c.i
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitProject\Boat\CoreCabin\Core\Src\system_stm32f4xx.c > CMakeFiles\BuoyancyCabin.elf.dir\Core\Src\system_stm32f4xx.c.i
 
 CMakeFiles/BuoyancyCabin.elf.dir/Core/Src/system_stm32f4xx.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BuoyancyCabin.elf.dir/Core/Src/system_stm32f4xx.c.s"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitProject\stm32\BuoyancyCabin\Core\Src\system_stm32f4xx.c -o CMakeFiles\BuoyancyCabin.elf.dir\Core\Src\system_stm32f4xx.c.s
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitProject\Boat\CoreCabin\Core\Src\system_stm32f4xx.c -o CMakeFiles\BuoyancyCabin.elf.dir\Core\Src\system_stm32f4xx.c.s
 
 CMakeFiles/BuoyancyCabin.elf.dir/Core/Startup/startup_stm32f405rgtx.s.obj: CMakeFiles/BuoyancyCabin.elf.dir/flags.make
 CMakeFiles/BuoyancyCabin.elf.dir/Core/Startup/startup_stm32f405rgtx.s.obj: ../Core/Startup/startup_stm32f405rgtx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitProject\stm32\BuoyancyCabin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building ASM object CMakeFiles/BuoyancyCabin.elf.dir/Core/Startup/startup_stm32f405rgtx.s.obj"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\BuoyancyCabin.elf.dir\Core\Startup\startup_stm32f405rgtx.s.obj -c E:\GitProject\stm32\BuoyancyCabin\Core\Startup\startup_stm32f405rgtx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitProject\Boat\CoreCabin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building ASM object CMakeFiles/BuoyancyCabin.elf.dir/Core/Startup/startup_stm32f405rgtx.s.obj"
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\BuoyancyCabin.elf.dir\Core\Startup\startup_stm32f405rgtx.s.obj -c E:\GitProject\Boat\CoreCabin\Core\Startup\startup_stm32f405rgtx.s
 
 CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/BuoyancyCabin.elf.dir/flags.make
 CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitProject\stm32\BuoyancyCabin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj   -c E:\GitProject\stm32\BuoyancyCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitProject\Boat\CoreCabin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj   -c E:\GitProject\Boat\CoreCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c
 
 CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitProject\stm32\BuoyancyCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c > CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.i
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitProject\Boat\CoreCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c > CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.i
 
 CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitProject\stm32\BuoyancyCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c -o CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.s
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitProject\Boat\CoreCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c -o CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.s
 
 CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/BuoyancyCabin.elf.dir/flags.make
 CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitProject\stm32\BuoyancyCabin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj   -c E:\GitProject\stm32\BuoyancyCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitProject\Boat\CoreCabin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj   -c E:\GitProject\Boat\CoreCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c
 
 CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitProject\stm32\BuoyancyCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c > CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.i
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitProject\Boat\CoreCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c > CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.i
 
 CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitProject\stm32\BuoyancyCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c -o CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.s
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitProject\Boat\CoreCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c -o CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.s
 
 CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/BuoyancyCabin.elf.dir/flags.make
 CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitProject\stm32\BuoyancyCabin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj   -c E:\GitProject\stm32\BuoyancyCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitProject\Boat\CoreCabin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj   -c E:\GitProject\Boat\CoreCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c
 
 CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitProject\stm32\BuoyancyCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c > CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.i
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitProject\Boat\CoreCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c > CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.i
 
 CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitProject\stm32\BuoyancyCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c -o CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.s
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitProject\Boat\CoreCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c -o CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.s
 
 CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/BuoyancyCabin.elf.dir/flags.make
 CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitProject\stm32\BuoyancyCabin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj   -c E:\GitProject\stm32\BuoyancyCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitProject\Boat\CoreCabin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj   -c E:\GitProject\Boat\CoreCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c
 
 CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitProject\stm32\BuoyancyCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c > CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.i
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitProject\Boat\CoreCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c > CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.i
 
 CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitProject\stm32\BuoyancyCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c -o CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.s
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitProject\Boat\CoreCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c -o CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.s
 
 CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/BuoyancyCabin.elf.dir/flags.make
 CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitProject\stm32\BuoyancyCabin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj   -c E:\GitProject\stm32\BuoyancyCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitProject\Boat\CoreCabin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj   -c E:\GitProject\Boat\CoreCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c
 
 CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitProject\stm32\BuoyancyCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c > CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.i
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitProject\Boat\CoreCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c > CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.i
 
 CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.s"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitProject\stm32\BuoyancyCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c -o CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.s
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitProject\Boat\CoreCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c -o CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.s
 
 CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/BuoyancyCabin.elf.dir/flags.make
 CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitProject\stm32\BuoyancyCabin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj   -c E:\GitProject\stm32\BuoyancyCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitProject\Boat\CoreCabin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj   -c E:\GitProject\Boat\CoreCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c
 
 CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitProject\stm32\BuoyancyCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c > CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.i
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitProject\Boat\CoreCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c > CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.i
 
 CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitProject\stm32\BuoyancyCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c -o CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.s
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitProject\Boat\CoreCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c -o CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.s
 
 CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/BuoyancyCabin.elf.dir/flags.make
 CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitProject\stm32\BuoyancyCabin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj   -c E:\GitProject\stm32\BuoyancyCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitProject\Boat\CoreCabin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj   -c E:\GitProject\Boat\CoreCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c
 
 CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitProject\stm32\BuoyancyCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c > CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.i
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitProject\Boat\CoreCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c > CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.i
 
 CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.s"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitProject\stm32\BuoyancyCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c -o CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.s
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitProject\Boat\CoreCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c -o CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.s
 
 CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/BuoyancyCabin.elf.dir/flags.make
 CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitProject\stm32\BuoyancyCabin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj   -c E:\GitProject\stm32\BuoyancyCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitProject\Boat\CoreCabin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj   -c E:\GitProject\Boat\CoreCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c
 
 CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitProject\stm32\BuoyancyCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c > CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.i
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitProject\Boat\CoreCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c > CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.i
 
 CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitProject\stm32\BuoyancyCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c -o CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.s
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitProject\Boat\CoreCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c -o CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.s
 
 CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/BuoyancyCabin.elf.dir/flags.make
 CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitProject\stm32\BuoyancyCabin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj   -c E:\GitProject\stm32\BuoyancyCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitProject\Boat\CoreCabin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj   -c E:\GitProject\Boat\CoreCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c
 
 CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitProject\stm32\BuoyancyCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c > CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.i
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitProject\Boat\CoreCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c > CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.i
 
 CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitProject\stm32\BuoyancyCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c -o CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.s
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitProject\Boat\CoreCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c -o CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.s
 
 CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/BuoyancyCabin.elf.dir/flags.make
 CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitProject\stm32\BuoyancyCabin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj   -c E:\GitProject\stm32\BuoyancyCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitProject\Boat\CoreCabin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj   -c E:\GitProject\Boat\CoreCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
 
 CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitProject\stm32\BuoyancyCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c > CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.i
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitProject\Boat\CoreCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c > CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.i
 
 CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitProject\stm32\BuoyancyCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c -o CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.s
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitProject\Boat\CoreCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c -o CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.s
 
 CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/BuoyancyCabin.elf.dir/flags.make
 CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitProject\stm32\BuoyancyCabin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj   -c E:\GitProject\stm32\BuoyancyCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitProject\Boat\CoreCabin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj   -c E:\GitProject\Boat\CoreCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c
 
 CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitProject\stm32\BuoyancyCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c > CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.i
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitProject\Boat\CoreCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c > CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.i
 
 CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitProject\stm32\BuoyancyCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c -o CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.s
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitProject\Boat\CoreCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c -o CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.s
 
 CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/BuoyancyCabin.elf.dir/flags.make
 CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitProject\stm32\BuoyancyCabin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj   -c E:\GitProject\stm32\BuoyancyCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitProject\Boat\CoreCabin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj   -c E:\GitProject\Boat\CoreCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
 
 CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitProject\stm32\BuoyancyCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c > CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.i
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitProject\Boat\CoreCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c > CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.i
 
 CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitProject\stm32\BuoyancyCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c -o CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.s
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitProject\Boat\CoreCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c -o CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.s
 
 CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/BuoyancyCabin.elf.dir/flags.make
 CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitProject\stm32\BuoyancyCabin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj   -c E:\GitProject\stm32\BuoyancyCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitProject\Boat\CoreCabin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj   -c E:\GitProject\Boat\CoreCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c
 
 CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitProject\stm32\BuoyancyCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c > CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.i
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitProject\Boat\CoreCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c > CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.i
 
 CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitProject\stm32\BuoyancyCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c -o CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.s
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitProject\Boat\CoreCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c -o CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.s
 
 CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/BuoyancyCabin.elf.dir/flags.make
 CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitProject\stm32\BuoyancyCabin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj   -c E:\GitProject\stm32\BuoyancyCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitProject\Boat\CoreCabin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj   -c E:\GitProject\Boat\CoreCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c
 
 CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitProject\stm32\BuoyancyCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c > CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.i
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitProject\Boat\CoreCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c > CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.i
 
 CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitProject\stm32\BuoyancyCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c -o CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.s
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitProject\Boat\CoreCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c -o CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.s
 
 CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/BuoyancyCabin.elf.dir/flags.make
 CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitProject\stm32\BuoyancyCabin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj   -c E:\GitProject\stm32\BuoyancyCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitProject\Boat\CoreCabin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj   -c E:\GitProject\Boat\CoreCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c
 
 CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitProject\stm32\BuoyancyCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c > CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.i
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitProject\Boat\CoreCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c > CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.i
 
 CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s"
-	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitProject\stm32\BuoyancyCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c -o CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.s
+	"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitProject\Boat\CoreCabin\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c -o CMakeFiles\BuoyancyCabin.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.s
 
 # Object files for target BuoyancyCabin.elf
 BuoyancyCabin_elf_OBJECTS = \
@@ -421,12 +421,12 @@ BuoyancyCabin.elf: CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver
 BuoyancyCabin.elf: CMakeFiles/BuoyancyCabin.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
 BuoyancyCabin.elf: CMakeFiles/BuoyancyCabin.elf.dir/build.make
 BuoyancyCabin.elf: CMakeFiles/BuoyancyCabin.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\GitProject\stm32\BuoyancyCabin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking C executable BuoyancyCabin.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\GitProject\Boat\CoreCabin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking C executable BuoyancyCabin.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\BuoyancyCabin.elf.dir\link.txt --verbose=$(VERBOSE)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building E:/GitProject/stm32/BuoyancyCabin/cmake-build-debug/BuoyancyCabin.hex"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building E:/GitProject/stm32/BuoyancyCabin/cmake-build-debug/BuoyancyCabin.bin"
-	arm-none-eabi-objcopy -Oihex E:/GitProject/stm32/BuoyancyCabin/cmake-build-debug/BuoyancyCabin.elf E:/GitProject/stm32/BuoyancyCabin/cmake-build-debug/BuoyancyCabin.hex
-	arm-none-eabi-objcopy -Obinary E:/GitProject/stm32/BuoyancyCabin/cmake-build-debug/BuoyancyCabin.elf E:/GitProject/stm32/BuoyancyCabin/cmake-build-debug/BuoyancyCabin.bin
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building E:/GitProject/Boat/CoreCabin/cmake-build-debug/BuoyancyCabin.hex"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building E:/GitProject/Boat/CoreCabin/cmake-build-debug/BuoyancyCabin.bin"
+	arm-none-eabi-objcopy -Oihex E:/GitProject/Boat/CoreCabin/cmake-build-debug/BuoyancyCabin.elf E:/GitProject/Boat/CoreCabin/cmake-build-debug/BuoyancyCabin.hex
+	arm-none-eabi-objcopy -Obinary E:/GitProject/Boat/CoreCabin/cmake-build-debug/BuoyancyCabin.elf E:/GitProject/Boat/CoreCabin/cmake-build-debug/BuoyancyCabin.bin
 
 # Rule to build all files generated by this target.
 CMakeFiles/BuoyancyCabin.elf.dir/build: BuoyancyCabin.elf
@@ -438,6 +438,6 @@ CMakeFiles/BuoyancyCabin.elf.dir/clean:
 .PHONY : CMakeFiles/BuoyancyCabin.elf.dir/clean
 
 CMakeFiles/BuoyancyCabin.elf.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\GitProject\stm32\BuoyancyCabin E:\GitProject\stm32\BuoyancyCabin E:\GitProject\stm32\BuoyancyCabin\cmake-build-debug E:\GitProject\stm32\BuoyancyCabin\cmake-build-debug E:\GitProject\stm32\BuoyancyCabin\cmake-build-debug\CMakeFiles\BuoyancyCabin.elf.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\GitProject\Boat\CoreCabin E:\GitProject\Boat\CoreCabin E:\GitProject\Boat\CoreCabin\cmake-build-debug E:\GitProject\Boat\CoreCabin\cmake-build-debug E:\GitProject\Boat\CoreCabin\cmake-build-debug\CMakeFiles\BuoyancyCabin.elf.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/BuoyancyCabin.elf.dir/depend
 

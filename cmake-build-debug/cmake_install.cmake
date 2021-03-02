@@ -1,4 +1,4 @@
-# Install script for directory: E:/GitProject/stm32/BuoyancyCabin
+# Install script for directory: E:/GitProject/Boat/CoreCabin
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/GitProject/stm32/BuoyancyCabin/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/GitProject/Boat/CoreCabin/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
